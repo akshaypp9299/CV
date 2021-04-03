@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h2>My Contact Details</h2>
+    <p>My fictional Address</p>
+    <p>9156087553</p>
+    <p>myemail@gmail.com</p>
+    <br>
+    <h3>Please fill out the given form</h3>
+    <form action="mailto:polshettiwarakshay@gmail.com" method="post" enctype="text/plain">
+        <label>Enter Your Name in lowecase</label><br>
+        <input type="text" name="name" placeholder="Enter your name" required minlength="8" maxlength="40" pattern="[a-z]{8-40}">
+        <br>
+        <label>Enter your email address</label><br>
+        <input type="email" name="email" placeholder="Enter your email" pattern=".+@gmail.com" title="only enter gmail address"><br>
+        <label >Which books you have read</label><br>
+        <input type="checkbox" name="check">Rich Dad Poor Dad <br>
+        <input type="checkbox" name="check">Subtle art of not giving fuck <br>
+        <label >Enter Your Gender</label><br>
+        <input type="radio" name="gender"  >Male <br>
+        <input type="radio" name="gender" >Female<br>
+        <label >Enter your Date of Birth</label><br>
+        <input type="date" name="date" placeholder="Enter your date of birth" >
+        <br>
+        <label >Upload your Resume(accepted only in jpeg or png)</label><br>
+        <input type="file" name="file" accept="image/png,image/jpeg"><br>
+        <label >Enter your github URL</label><br>
+        <input type="url" name="url" placeholder="https://github.com">
+        <br>
+        <label>Your Message</label><br>
+        <input type="text" name="message" placeholder="" rows="10" cols="50"><br>
+        <label >Set your password</label><br>
+        <input type="password" name="password" placeholder="Enter your password" ><br>
+        <label >Submit</label><br>
+        <input type="submit" value="submit" name="submit">
+    </form>
+</body>
+</html>
